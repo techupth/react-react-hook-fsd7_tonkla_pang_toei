@@ -16,7 +16,7 @@ function ViewPostPage() {
         {isError && <h1>Request failed</h1>}
         {posts && !isLoading && !isError && (
           <>
-            <h2>Post Tilte</h2>
+            <h2>Post Title</h2>
             <p>Content</p>
           </>
         )}
